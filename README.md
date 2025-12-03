@@ -11,6 +11,50 @@ Michal Nohel, Katerina Krejci, Constantin Ulrich, Maximilian Rokuss, Yannick Kir
 
 Author Affiliations:  
 Department of Deputy Director for Science and Research, University Hospital & Faculty of Medicine, Ostrava, Czech Republic
+
 Department of Biomedical Engineering, Faculty of Electrical Engineering and Communication, Brno University of Technology, Brno, Czech Republic
+
 German Cancer Research Center (DKFZ) Heidelberg, Division of Medical Image Computing, Heidelberg, Germany
+
 Medical Faculty Heidelberg, University of Heidelberg, Heidelberg, Germany
+
+HIDSS4Health - Helmholtz Information and Data Science School for Health, Karlsruhe/Heidelberg, Germany
+
+Faculty of Mathematics and Computer Science, Heidelberg University, Heidelberg, Germany
+
+Department of Neurosurgery, University Hospital & Faculty of Medicine, Ostrava, Czech Republic
+
+Department of Surgery, University Hospital & Faculty of Medicine, Ostrava, Czech Republic
+
+## Overview
+
+
+## Key Features
+
+## Usage
+### Installation
+
+Check out the official [nnUNet installation instructions](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/installation_instructions.md)
+
+nnU-Net needs to know where you intend to save raw data, preprocessed data and trained models. For this you need to set a few environment variables. Please follow the instructions [here](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/set_environment_variables.md)
+
+### Model Availability
+
+# Inference
+
+
+
+
+## Citation
+
+
+
+
+
+
+
+
+
+
+
+Department of Oncology, University Hospital & Faculty of Medicine, Ostrava, Czech Republic
