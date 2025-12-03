@@ -11,9 +11,6 @@ Michal Nohel, Katerina Krejci, Constantin Ulrich, Maximilian Rokuss, Yannick Kir
 
 Author Affiliations:  
 Department of Deputy Director for Science and Research, University Hospital & Faculty of Medicine, Ostrava, Czech Republic
-
 Department of Biomedical Engineering, Faculty of Electrical Engineering and Communication, Brno University of Technology, Brno, Czech Republic
-
 German Cancer Research Center (DKFZ) Heidelberg, Division of Medical Image Computing, Heidelberg, Germany
-
 Medical Faculty Heidelberg, University of Heidelberg, Heidelberg, Germany
