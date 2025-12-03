@@ -9,23 +9,6 @@ Welcome to the repository for the paper **"Automatic Deep Learning-Based Segment
 Authors:  
 Michal Nohel, Katerina Krejci, Constantin Ulrich, Maximilian Rokuss, Yannick Kirchhoff, Jiri Chmelik, Stefan Reguli, Jan Hrubovcak, Lubomir Martinek, Lukas Knybel 
 
-Author Affiliations:  
-Department of Deputy Director for Science and Research, University Hospital & Faculty of Medicine, Ostrava, Czech Republic
-
-Department of Biomedical Engineering, Faculty of Electrical Engineering and Communication, Brno University of Technology, Brno, Czech Republic
-
-German Cancer Research Center (DKFZ) Heidelberg, Division of Medical Image Computing, Heidelberg, Germany
-
-Medical Faculty Heidelberg, University of Heidelberg, Heidelberg, Germany
-
-HIDSS4Health - Helmholtz Information and Data Science School for Health, Karlsruhe/Heidelberg, Germany
-
-Faculty of Mathematics and Computer Science, Heidelberg University, Heidelberg, Germany
-
-Department of Neurosurgery, University Hospital & Faculty of Medicine, Ostrava, Czech Republic
-
-Department of Surgery, University Hospital & Faculty of Medicine, Ostrava, Czech Republic
-
 ## Overview
 
 
