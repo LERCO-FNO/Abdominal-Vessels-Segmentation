@@ -4,8 +4,8 @@
 
 Welcome to the repository for the paper **"Automatic Deep Learning-Based Segmentation of Abdominal Vessels in CT Scans"**! 
 
-### Read the paper:
-(BVM 2026 proceedings – link coming soon)
+### Read the [paper](BVM 2026 proceedings – link coming soon):
+
 
 
 Authors:  
@@ -89,8 +89,53 @@ https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/how_to_use_nnunet.m
 For abdominal artery segmentation (arterial phase CT), run inference using the model folder:
 
 ```bash
-nnUNetv2_predict_from_modelfolder -i INPUT_FOLDER -o OUTPUT_FOLDER -m ARTERY_MODEL_FOLDER
+nnUNetv2_predict_from_modelfolder -i INPUT_FOLDER -o OUTPUT_FOLDER -m MODEL_FOLDER
 ```
+
+This executes the trained model (or fold ensemble if available) for artery segmentation.
+
+The provided models can be used in two ways:
+- Five-fold cross-validation ensemble (recommended)
+- A single model trained on all available data
+
+To perform inference using a five-fold ensemble, use the following command:
+```bash
+nnUNetv2_predict_from_modelfolder -i INPUT_FOLDER -o OUTPUT_FOLDER -m MODEL_FOLDER
+```
+
+To perform inference using the model trained on all data, use:
+```bash
+nnUNetv2_predict_from_modelfolder -i INPUT_FOLDER -o OUTPUT_FOLDER -m MODEL_FOLDER -f all
+```
+
+## Vein Segmentation Network
+
+For abdominal vein segmentation (venous phase CT), the models were trained using five-fold cross-validation.  
+You can perform inference either using the five-fold ensemble or the model trained on all available data.
+
+To perform inference using the five-fold ensemble, use:
+```bash
+nnUNetv2_predict_from_modelfolder -i INPUT_FOLDER -o OUTPUT_FOLDER -m MODEL_FOLDER
+```
+
+To perform inference using the model trained on all data, use:
+```bash
+nnUNetv2_predict_from_modelfolder -i INPUT_FOLDER -o OUTPUT_FOLDER -m MODEL_FOLDER -f all
+```
+
+## Recommended Model
+Based on quantitative and qualitative evaluation presented in the paper, the SkeletonRecall model showed:
+- Higher sensitivity for vessel detection  
+- Better continuity of vascular trees  
+- Improved segmentation of small and distal vessel branches  
+
+Although global Dice scores can be slightly lower due to incomplete annotations of tiny vessels, the SkeletonRecall variant provides the most anatomically consistent and clinically useful results for preoperative planning and VR-based visualization pipelines.
+
+## Citation
+If you use this repository or the trained models in your research, please cite:
+TO BE DONE
+
+
 
 
 
