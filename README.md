@@ -26,7 +26,7 @@ This repository contains the code and pre-trained models accompanying the paper 
 
 The framework focuses on fully automatic 3D segmentation of abdominal arteries and veins from dual-phase contrast-enhanced CT (CECT) scans for preoperative surgical planning and vascular mapping.  
 
-Our models are based on the nnU-Net ecosystem and were trained using three different trainer variants, including a topology-aware Skeleton Recall approach that improves segmentation continuity of thin tubular vessel structures and distal branches.
+Our models are based on the [nnUNet framework](https://github.com/MIC-DKFZ/nnUNet) and were trained using three different trainer variants, including a topology-aware Skeleton Recall approach that improves segmentation continuity of thin tubular vessel structures and distal branches.
 
 ## Dataset
 The models were trained on a dataset of **50 patients** with dual-phase CECT scans. The data format used for training is **NRRD**. The dataset is publicly available at Zenodo: [https://zenodo.org/records/17407158](https://zenodo.org/records/17407158).
