@@ -27,6 +27,8 @@ The framework focuses on fully automatic 3D segmentation of abdominal arteries a
 
 Our models are based on the nnU-Net ecosystem and were trained using three different trainer variants, including a topology-aware Skeleton Recall approach that improves segmentation continuity of thin tubular vessel structures and distal branches.
 
+## Dataset
+The models were trained on a dataset of **50 patients** with dual-phase CECT scans. The data format used for training is **NRRD**. The dataset is publicly available at Zenodo: [https://zenodo.org/records/17407158](https://zenodo.org/records/17407158).
 
 ## Key Features
 
@@ -79,7 +81,8 @@ Each task includes three nnU-Net-based variants:
 - Residual Encoder U-Net (ResEnc)  
 - SkeletonRecall nnU-Net (topology-aware)  
 
-All models were trained using five-fold cross-validation on dual-phase CECT scans with manual annotations of abdominal vessels down to third-order branching.
+All models were trained using five-fold cross-validation on the **50-patient dual-phase CECT dataset** with manual annotations of abdominal vessels down to third-order branching.
+
 
 # Inference
 For inference you can use the default nnU-Net v2 inference functionalities provided through the Skeleton-Recall installation:  
