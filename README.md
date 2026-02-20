@@ -6,19 +6,20 @@ Welcome to the repository for the paper **"Automatic Deep Learning-Based Segment
 
 ### Read the [paper](BVM 2026 proceedings – link coming soon):
 
+**Authors:** Michal Nohel<sup>1,2,†</sup>, Katerina Krejci<sup>2</sup>, Constantin Ulrich<sup>3,4</sup>, Maximilian Rokuss<sup>3,5,6</sup>, Yannick Kirchhoff<sup>3,5,6</sup>, Jiri Chmelik<sup>2</sup>, Stefan Reguli<sup>7</sup>, Jan Hrubovcak<sup>8</sup>, Lubomir Martinek<sup>8</sup>, Lukas Knybel<sup>9</sup>
 
+**Author Affiliations:**  
+<sup>1</sup> Department of Deputy Director for Science and Research, University Hospital & Faculty of Medicine, Ostrava, Czech Republic  
+<sup>2</sup> Department of Biomedical Engineering, Faculty of Electrical Engineering and Communication, Brno University of Technology, Brno, Czech Republic  
+<sup>3</sup> German Cancer Research Center (DKFZ), Division of Medical Image Computing, Heidelberg, Germany  
+<sup>4</sup> Medical Faculty Heidelberg, University of Heidelberg, Heidelberg, Germany  
+<sup>5</sup> HIDSS4Health - Helmholtz Information and Data Science School for Health, Karlsruhe/Heidelberg, Germany  
+<sup>6</sup> Faculty of Mathematics and Computer Science, Heidelberg University, Heidelberg, Germany  
+<sup>7</sup> Department of Neurosurgery, University Hospital & Faculty of Medicine, Ostrava, Czech Republic  
+<sup>8</sup> Department of Surgery, University Hospital & Faculty of Medicine, Ostrava, Czech Republic  
+<sup>9</sup> Department of Oncology, University Hospital & Faculty of Medicine, Ostrava, Czech Republic  
+<sup>*</sup> Corresponding authors: Michal Nohel (michal.nohel@fno.cz)
 
-Authors:  
-Michal Nohel, Katerina Krejci, Constantin Ulrich, Maximilian Rokuss, Yannick Kirchhoff, Jiri Chmelik, Stefan Reguli, Jan Hrubovcak, Lubomir Martinek, Lukas Knybel 
-
-Author Affiliations:  
-Department of Deputy Director for Science and Research, University Hospital & Faculty of Medicine, Ostrava  
-Department of Biomedical Engineering, Faculty of Electrical Engineering and Communication, Brno University of Technology, Brno, Czech Republic  
-Division of Medical Image Computing, German Cancer Research Center (DKFZ), Heidelberg  
-Medical Faculty Heidelberg, Heidelberg University  
-Department of Neurosurgery, University Hospital & Faculty of Medicine, Ostrava  
-Department of Surgery, University Hospital & Faculty of Medicine, Ostrava  
-Department of Oncology, University Hospital & Faculty of Medicine, Ostrava  
 
 ## Overview
 This repository contains the code and pre-trained models accompanying the paper submitted to BVM 2026, titled **"Automatic Deep Learning-Based Segmentation of Abdominal Vessels in CT Scans"**.  
