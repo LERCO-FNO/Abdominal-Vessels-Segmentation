@@ -18,7 +18,7 @@ Welcome to the repository for the paper **"Automatic Deep Learning-Based Segment
 <sup>7</sup> Department of Neurosurgery, University Hospital & Faculty of Medicine, Ostrava, Czech Republic  
 <sup>8</sup> Department of Surgery, University Hospital & Faculty of Medicine, Ostrava, Czech Republic  
 <sup>9</sup> Department of Oncology, University Hospital & Faculty of Medicine, Ostrava, Czech Republic  
-<sup>*</sup> Corresponding authors: Michal Nohel (michal.nohel@fno.cz)
+<sup>*</sup> Corresponding author: Michal Nohel (michal.nohel@fno.cz)
 
 
 ## Overview
