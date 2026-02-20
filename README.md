@@ -6,7 +6,7 @@ Welcome to the repository for the paper **"Automatic Deep Learning-Based Segment
 
 ### Read the [paper](BVM 2026 proceedings – link coming soon):
 
-**Authors:** Michal Nohel<sup>1,2,†</sup>, Katerina Krejci<sup>2</sup>, Constantin Ulrich<sup>3,4</sup>, Maximilian Rokuss<sup>3,5,6</sup>, Yannick Kirchhoff<sup>3,5,6</sup>, Jiri Chmelik<sup>2</sup>, Stefan Reguli<sup>7</sup>, Jan Hrubovcak<sup>8</sup>, Lubomir Martinek<sup>8</sup>, Lukas Knybel<sup>9</sup>
+**Authors:** Michal Nohel<sup>1,2,*</sup>, Katerina Krejci<sup>2</sup>, Constantin Ulrich<sup>3,4</sup>, Maximilian Rokuss<sup>3,5,6</sup>, Yannick Kirchhoff<sup>3,5,6</sup>, Jiri Chmelik<sup>2</sup>, Stefan Reguli<sup>7</sup>, Jan Hrubovcak<sup>8</sup>, Lubomir Martinek<sup>8</sup>, Lukas Knybel<sup>9</sup>
 
 **Author Affiliations:**  
 <sup>1</sup> Department of Deputy Director for Science and Research, University Hospital & Faculty of Medicine, Ostrava, Czech Republic  
