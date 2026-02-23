@@ -70,8 +70,7 @@ For this you need to set a few environment variables. Please follow the instruct
 https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/set_environment_variables.md
 
 ### Model Availability
-The pre-trained models used in this study are publicly available and can be downloaded from:  
-(GitHub / Zenodo link – to be added)
+The pre-trained models used in this study are publicly available and can be downloaded from Zenodo: [https://doi.org/10.5281/zenodo.18712077](https://doi.org/10.5281/zenodo.18712077).
 
 The released package contains trained models for:
 - Artery segmentation (arterial phase CT)
