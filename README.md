@@ -4,7 +4,7 @@
 
 Welcome to the repository for the paper **"Automatic Deep Learning-Based Segmentation of Abdominal Vessels in CT Scans"**! 
 
-### Read the [paper](BVM 2026 proceedings – link coming soon):
+### Read the [paper](https://link.springer.com/chapter/10.1007/978-3-658-51100-5_58):
 
 **Authors:** Michal Nohel<sup>1,2,*</sup>, Katerina Krejci<sup>2</sup>, Constantin Ulrich<sup>3,4</sup>, Maximilian Rokuss<sup>3,5,6</sup>, Yannick Kirchhoff<sup>3,5,6</sup>, Jiri Chmelik<sup>2</sup>, Stefan Reguli<sup>7</sup>, Jan Hrubovcak<sup>8</sup>, Lubomir Martinek<sup>8</sup>, Lukas Knybel<sup>9</sup>
 
@@ -135,10 +135,28 @@ Based on quantitative and qualitative evaluation presented in the paper, the Ske
 Although global Dice scores can be slightly lower due to incomplete annotations of tiny vessels, the SkeletonRecall variant provides the most anatomically consistent and clinically useful results for preoperative planning and VR-based visualization pipelines.
 
 ## Citation
-If you use this repository or the trained models in your research, please cite:
-TO BE DONE
+If you use this repository or the trained models in your research, please cite the following paper:
 
+Nohel, M., Krejci, K., Ulrich, C., Rokuss, M., Kirchhoff, Y., Chmelik, J., Reguli, S., Hrubovcak, J., Martinek, L., Knybel, L.  
+**Automatic Deep Learning-Based Segmentation of Abdominal Vessels in CT Scans.**  
+In: *Bildverarbeitung für die Medizin 2026 (BVM 2026)*. Springer, 2026.  
+https://link.springer.com/chapter/10.1007/978-3-658-51100-5_58
 
-
+```bibtex
+@article{Nohel2026,
+  author = {Michal Nohel and Katerina Krejci and Constantin Ulrich and Maximilian Rokuss and Yannick Kirchhoff and Jiri Chmelik and Stefan Reguli and Jan Hrubovcak and Lubomir Martinek and Lukas Knybel},
+  journal = {Informatik aktuell},
+  title = {Automatic Deep Learning-Based Segmentation of Abdominal Vessels in CT Scans},
+  publisher = {Springer Fachmedien Wiesbaden},
+  address = {Wiesbaden},
+  year = {2026},
+  pages = {292-297},
+  ISBN = {9783658510992},
+  ISSN = {1431-472X},
+  medium = {online},
+  accessed = {2026-03-13},
+  DOI = {10.1007/978-3-658-51100-5_58},
+}
+```
 
 
