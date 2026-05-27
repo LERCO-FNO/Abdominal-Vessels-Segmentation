@@ -29,7 +29,11 @@ The framework focuses on fully automatic 3D segmentation of abdominal arteries a
 Our models are based on the [nnUNet framework](https://github.com/MIC-DKFZ/nnUNet) and were trained using three different trainer variants, including a topology-aware Skeleton Recall approach that improves segmentation continuity of thin tubular vessel structures and distal branches.
 
 ## Dataset
-The models were trained on a dataset of **50 patients** with dual-phase CECT scans. The data format used for training is **NRRD**. The dataset is publicly available at Zenodo: [https://zenodo.org/records/17407158](https://zenodo.org/records/17407158).
+The models were trained on a dataset of **50 patients** with dual-phase contrast-enhanced CT (CECT) scans. The data format used for training is **NRRD**. The dataset is publicly available at Zenodo: [https://zenodo.org/records/17407158](https://zenodo.org/records/17407158).
+
+A detailed description of the dataset was published in **Scientific Data**:
+Hrubovcak et al., *A Dataset of Abdominal CT with Artery and Vein Segmentations for Colorectal Cancer Surgical Planning*, Scientific Data (2026).  
+[https://www.nature.com/articles/s41597-026-07303-2](https://www.nature.com/articles/s41597-026-07303-2)
 
 ## Key Features
 
@@ -135,8 +139,9 @@ Based on quantitative and qualitative evaluation presented in the paper, the Ske
 Although global Dice scores can be slightly lower due to incomplete annotations of tiny vessels, the SkeletonRecall variant provides the most anatomically consistent and clinically useful results for preoperative planning and VR-based visualization pipelines.
 
 ## Citation
-If you use this repository or the trained models in your research, please cite the following paper:
+If you use this repository, the trained models, or the associated dataset in your research, please cite the following papers:
 
+### Model paper
 Nohel, M., Krejci, K., Ulrich, C., Rokuss, M., Kirchhoff, Y., Chmelik, J., Reguli, S., Hrubovcak, J., Martinek, L., Knybel, L.  
 **Automatic Deep Learning-Based Segmentation of Abdominal Vessels in CT Scans.**  
 In: *Bildverarbeitung für die Medizin 2026 (BVM 2026)*. Springer, 2026.  
@@ -158,5 +163,24 @@ https://link.springer.com/chapter/10.1007/978-3-658-51100-5_58
   DOI = {10.1007/978-3-658-51100-5_58},
 }
 ```
+### Dataset paper
+Hrubovcak, J., Strakos, P., Kubicek, J., Sethia, K., Kaushik, S., Jaros, M., Martinek, L., Penhaker, M., Bahrova, J., Chadrabova, M., Nohel, M., Knybel, L., Blazek, T., Migulski, J., Riha, L.  
+**A Dataset of Abdominal CT with Artery and Vein Segmentations for Colorectal Cancer Surgical Planning.**  
+*Scientific Data*, 2026.  
+https://www.nature.com/articles/s41597-026-07303-2
+
+```bibtex
+@article{Hrubovcak202654,
+  author = {Jan Hrubovcak and Petr Strakos and Jan Kubicek and Khyati Sethia and Sumit Kaushik and Milan Jaros and Lubomir Martinek and Marek Penhaker and Jana Bahrova and Marie Chadrabova and Michal Nohel and Lukas Knybel and Tomas Blazek and Jan Migulski and Lubomir Riha},
+  journal = {Scientific Data},
+  title = {A Dataset of Abdominal CT with Artery and Vein Segmentations for Colorectal Cancer Surgical Planning},
+  publisher = {Springer Science and Business Media LLC},
+  year = {2026-5-4},
+  ISSN = {2052-4463},
+  medium = {online},
+  accessed = {2026-05-27},
+  DOI = {10.1038/s41597-026-07303-2},
+  URL = {https://www.nature.com/articles/s41597-026-07303-2},
+}
 
 
