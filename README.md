@@ -29,7 +29,7 @@ The framework focuses on fully automatic 3D segmentation of abdominal arteries a
 Our models are based on the [nnUNet framework](https://github.com/MIC-DKFZ/nnUNet) and were trained using three different trainer variants, including a topology-aware Skeleton Recall approach that improves segmentation continuity of thin tubular vessel structures and distal branches.
 
 ## Dataset
-The models were trained on a dataset of **50 patients** with dual-phase contrast-enhanced CT (CECT) scans. The data format used for training is **NRRD**. The dataset is publicly available at Zenodo: [https://zenodo.org/records/17407158](https://zenodo.org/records/17407158).
+The models were trained on a dataset of **50 patients** with dual-phase CECT scans. The data format used for training is **NRRD**. The dataset is publicly available at Zenodo: [https://zenodo.org/records/17407158](https://zenodo.org/records/17407158).
 
 A detailed description of the dataset was published in **Scientific Data**:
 Hrubovcak et al., *A Dataset of Abdominal CT with Artery and Vein Segmentations for Colorectal Cancer Surgical Planning*, Scientific Data (2026).  
